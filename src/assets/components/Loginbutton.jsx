@@ -9,7 +9,7 @@ function Loginbutton() {
     const handleClick = (e) => {
         e.preventDefault();
         // console.log("hjylop");
-        setFullName(`${firstname}  ${lastname}`)
+        setFullName(` ${firstname} ${lastname}`)
     };
     return (
         <div className="Loginbutton">
@@ -38,7 +38,7 @@ function Loginbutton() {
                 <button type="submit">Submit</button>
 
             </form>
-            {fullname && <h2>Full Name: {fullname}</h2>}
+            {fullname && <h2>Full Name:{fullname}</h2>}
 
         </div>
     );
