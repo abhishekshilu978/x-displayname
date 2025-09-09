@@ -6,8 +6,9 @@ function Loginbutton() {
     // const [message, setMessage] = useState("");
     const [fullname, setFullName] =useState("");
     
-    const handleClick = () => {
-        // e.previentDefault();
+    const handleClick = (e) => {
+        e.preventDefault();
+        // console.log("hjylop");
         setFullName(`${firstname}  ${lastname}`)
     };
     return (
@@ -34,7 +35,7 @@ function Loginbutton() {
                      required
                       />
                 </div>
-                <button type="submit" Submit={handleClick}>Submit</button>
+                <button type="submit">Submit</button>
 
             </form>
             {fullname && <h2>Full Name: {fullname}</h2>}
