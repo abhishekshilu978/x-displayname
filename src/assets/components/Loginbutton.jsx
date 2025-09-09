@@ -34,7 +34,8 @@ function Loginbutton() {
                      required
                       />
                 </div>
-                <button Submit={handleClick}>Submit</button>
+                <button type="submit" Submit={handleClick}>Submit</button>
+
             </form>
             {fullname && <h2>Full Name: {fullname}</h2>}
 
