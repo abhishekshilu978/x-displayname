@@ -1,0 +1,19 @@
+.app{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #add;
+    border-radius: 10px;
+    text-align: center;
+}
+.input{
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    width: 80%;
+
+}
+.button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
